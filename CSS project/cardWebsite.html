@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-color: #A9C9FF;
+            background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            width: 300px;
+            height: 500px;
+            background-color: white;
+            border-radius: 20px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+        .card img{
+            height: 58%;
+            width: 100%;
+            padding: 10px;
+            border-radius: 15px;
+        }
+        .battingStats{
+            display: flex;
+            flex-direction: column;
+        }
+        .battingStats table{
+            /* border: 1px solid black; */
+            height: 1rem;
+            width: 1rem;
+        }
+         .battingStats td {
+            height: 30px;
+            width: 30px;
+            text-align:center;
+            /* border:1px solid black; */
+            padding:5px
+        }
+       
+    </style>
+
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="card">
+            <img src="virat-kohli.jpg"/>
+
+            <h2>Virat Kohli (Chiku)</h2>
+            <div class="stats">
+                <div class="battingStats">
+                    <h4>Batting Stats</h4>
+                    <table>
+                        <tr>
+                            <td>Format</td>
+                            <td>Match</td>
+                            <td>Inn</td>
+                            <td>NO</td>
+                            <td>Runs</td>
+                            <td>Highest</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Test</td>
+                            <td>111</td>
+                            <td>187</td>
+                            <td>11</td>
+                            <td>8676</td>
+                            <td>254</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>ODI</td>
+                            <td>275</td>
+                            <td>265</td>
+                            <td>40</td>
+                            <td>12898</td>
+                            <td>183</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>T20I</td>
+                            <td>115</td>
+                            <td>107</td>
+                            <td>31</td>
+                            <td>4008</td>
+                            <td>122</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>IPL</td>
+                            <td>237</td>
+                            <td>229</td>
+                            <td>34</td>
+                            <td>7263</td>
+                            <td>113</td>
+
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
